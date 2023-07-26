@@ -1,0 +1,60 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(14, 177, 44, 0.636);
+}
+.card{
+    width: 280px;
+    height: 550px;
+    border-radius: 15px;
+    background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2023/04/hinh-nen-iphone-8.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    border: 3px solid rgb(85, 73, 73);
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+} 
+.card .card-1{
+   width: 90px;
+   height: 17px;
+   background-color: rgba(11, 9, 9, 0.89);
+   border-radius: 8px;
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content:space-around;
+} 
+.card .card-1 .card-2{
+    width: 5px;
+    height: 5px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.card .card-1 .card-3{
+    width: 30px;
+    height: 3px;
+    background-color: rgba(181, 200, 218, 0.91);
+    border-radius: 4px;
+}
+.card-unset{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vw;
+}
+.card-unset .card-infor{
+    width: 270px;
+    height: 120px;
+    background-color: rgba(21, 19, 16, 0.896);
+    margin: 47px auto;
+    border-radius: 10px;
+} 
+.hide{
+    display: none;
+}   
